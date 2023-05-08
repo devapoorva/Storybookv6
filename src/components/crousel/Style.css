@@ -1,0 +1,6 @@
+.app-crousel{
+    height: 400px;
+}
+.app-crousel .carousel-inner{
+    height: 100%;
+}

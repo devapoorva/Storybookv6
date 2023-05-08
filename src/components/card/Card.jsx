@@ -4,7 +4,7 @@ const Card = ({imageUrl,heading,description,linkText})=>{
 
     return (
         <>
-            <div className="card" >
+            <div className="card" style={{width:"50%"}}>
                 <img src={imageUrl} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{heading}</h5>
